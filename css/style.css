@@ -1,0 +1,130 @@
+body {
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+
+header {
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-navigation {
+    background-color: #564f4f18;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.head-nav-link {
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgba(4, 4, 4, 0.658);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.header-background {
+    position: relative;
+}
+
+.header-photo {
+    opacity: 0.85;
+}
+
+.header-caption {
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 0 0 2px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    font-size: 18px;
+    min-height: calc(100vh - 700px);
+}
+
+.concert_photo {
+    float: right;
+    padding: 1em;
+}
+
+.members-table {
+    width: 90%;
+    border: 15px solid #f3f1f1;
+    border-top: 5px solid #f3f1f1;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.members-table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #f3f1f1;
+    border-bottom: 5px solid #f3f1f1;
+}
+
+.members-table td {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 5px solid #f3f1f1;
+}
+
+.pleasures_photo {
+    float: left;
+}
+
+.closer_photo {
+    float: left;
+}
+
+
+footer {
+    background-color: #1b1a1af6;
+    height: auto;
+}
+
+.footer-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.footer-navigation {
+    text-align: right;
+}
+
+.foot-nav-link {
+    display: inline-block;
+    color: rgba(241, 239, 239, 0.356);
+    font-size: 25px;
+    padding-top: 20px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.icons li {
+    display: inline-block;
+}
+
+.icons {
+    display: inline;
+}
+
+.copyrights {
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(231, 222, 222, 0.655);
+}
